@@ -74,9 +74,9 @@ function ArrowIcon({ diagonal = false }) {
 function Header() {
   return (
     <header className="site-header">
-      <a className="wordmark" href="#home" aria-label="Your Name, home">
-        <span className="wordmark-mark">y.</span>
-        <span>Your Name</span>
+      <a className="wordmark" href="#home" aria-label="Dawit Misganaw, home">
+        <span className="wordmark-mark">dm.</span>
+        <span>Dawit Misganaw</span>
       </a>
       <nav className="main-nav" aria-label="Main navigation">
         <a href="#about">About</a>
@@ -247,7 +247,7 @@ function App() {
             <div className="about-heading">
               <p className="eyebrow">The person behind the pixels</p>
               <h2>
-                Hey, I&apos;m <span>Your Name.</span>
+                Hey, I&apos;m <span>Dawit Misganaw.</span>
               </h2>
             </div>
             <div className="about-copy">
@@ -319,11 +319,11 @@ function App() {
       </main>
       <footer className="site-footer">
         <a className="wordmark" href="#home" aria-label="Back to top">
-          <span className="wordmark-mark">y.</span>
-          <span>Your Name</span>
+          <span className="wordmark-mark">dm.</span>
+          <span>Dawit Misganaw</span>
         </a>
         <span className="copyright">
-          © {new Date().getFullYear()} Your Name. Made with care.
+          © {new Date().getFullYear()} Dawit Misganaw. Made with care.
         </span>
         <a className="back-to-top" href="#home">
           Back to top <ArrowIcon diagonal />
